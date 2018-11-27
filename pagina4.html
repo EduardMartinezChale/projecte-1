@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF8">
+    <meta name="keywords" content="SMX Moratalla Didac Aleix Eduard Educem">
+    <meta name="description" content="La quarta i millor pagina web">
+    <meta name="author" content="Eduard Martinez">
+    <link rel="shortcut icon" href="./logo.jpg">
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Registre d'Alumnes SMX2</h1>
+    </header>
+    <section>
+        <table align="center">
+            <form action="mailto:01martinezeduard@gmail.com?subject=loginalumne" enctype="text/plain" method="Post">
+                <tr>
+                    <td><label for="nomid">Nom:</label></td>
+                    <td><input id="nomid" type="text" name="nom" placeholder="Escriu el teu nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="cognomsid">Cognoms:</label></td>
+                    <td><input id="cognomsid" type="text" name="cognoms" placeholder="Escriu els teus cognoms"></td>
+                </tr>
+                <tr>
+                    <td><label for="mailid">E-mail:</label></td>
+                    <td><input id="mailid" type="email" name="e-mail" placeholder="Escriu el teu email"></td>
+                </tr>
+                <tr>
+                    <td><label for="dataid">Data de Naixement:</label></td>
+                    <td><input id="dataid" type="date" name="datanaixement" value="2001-01-01"></td>
+                </tr>
+                <tr>
+                    <td><label for="colorid">Color Preferit:</label></td>
+                    <td><input id="colorid" type="color" name="colorfav" value="#FD0101"></td>
+                </tr>
+                <tr>
+                    <td rowspan="6"><label>Mòduls Preferits de SMX2:</label></td>
+                    <td>
+                        <input id="m4id" type="checkbox" name="m4">
+                        <label for="m4id">M4 - Sistemes Operatius en Xarxa</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="m6id" type="checkbox" name="m6">
+                        <label for="m6id">M6 - Seguretat Xarxa</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="m7id" type="checkbox" name="m7">
+                        <label for="m7id">M7 - Serveis en Xarxa</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="m8id" type="checkbox" name="m8">
+                        <label for="m8id">M8 - Aplicacions Web</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="m10id" type="checkbox" name="m10">
+                        <label for="m10id">M10 - Empresa i Iniciativa Emprenedoria</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="m11id" type="checkbox" name="m11">
+                        <label for="m11id">M11 - Angles tècnic</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><label>Mòduls Preferits de SMX2:</label></td>
+                    <td>
+                        <input id="damid" type="radio" name="dam">
+                        <label for="damid">DAM</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="asixid" type="radio" name="asix">
+                        <label for="asixid">ASIX</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="enginyeriaid" type="radio" name="enginyeria">
+                        <label for="enginyeriaid">Enginyeria Informàtica</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="treballarid" type="radio" name="treballar">
+                        <label for="treballarid">Treballar</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="resid" type="radio" name="res">
+                        <label for="resid">Res</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="opinionid">Què t'està semblant el llenguatge HTML:</label></td>
+                    <td><select id="opinionid" name="datanaixement">
+                            <option value="molt">M'ha agradat molt</option>
+                            <option value="agradat">M'ha agradat</option>
+                            <option value="fa">Ni fu ni fa</option>
+                            <option value="gaire">No m'ha agradat gaire</option>
+                            <option value="gens">No m'ha agradat gens</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="notaid">Nota que esperes d'aquesta entrega:</label> </td>
+                    <td> <input id="notaid" type="number" min="0" max="10" value="5" name="nota">
+
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </section>
+</body>
+
+</html>
